@@ -45,6 +45,7 @@ var completedTasksHolder=document.getElementById("completed-tasks");//completed-
 
   deleteButton.className="delete";
   deleteButtonImg.src='./remove.svg';
+  deleteButton.alt = "delete"
   deleteButton.appendChild(deleteButtonImg);
 
 
